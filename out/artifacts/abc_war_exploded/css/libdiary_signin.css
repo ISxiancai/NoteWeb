@@ -1,0 +1,124 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fbfbfc;
+	margin: 0px;
+	padding: 0px;
+}
+.mass {
+	clear: both;
+	float: none;
+	width: 740px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.clear {
+	clear: both;
+}
+
+#top {
+	margin-top: 100px;
+}
+#top #liblogo {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#main {
+	margin-top: 29px;
+}
+#main .leftpart {
+	background-image: url(../img/libdiary_heart.png);
+	background-position: center center;
+	float: left;
+	width: 480px;
+	height: 290px;
+	background-repeat: no-repeat;
+}
+#main .rightpart {
+	float: right;
+	width: 240px;
+}
+
+
+#main .libinblock {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 220px;
+}
+#main .libinblock .label , #main .libinblock .notice{
+	line-height: 20px;
+	color: #949494;
+	font-size: 13px;
+}
+#main .libinblock .input  {
+	background-image: url(../img/libdairy_input.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#main .libinblock .input input {
+	border: 1px solid #c9c9c9;
+	box-sizing: content-box;
+	padding: 9px;
+	height: 20px;
+	width: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #33a7e0;
+	background-color: transparent;
+}
+#main #libenter a {
+	float: left;
+	margin-top: 10px;
+	background-image: url(../img/libdiary_signenter.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 100px;
+	text-decoration: none;
+	line-height: 40px;
+	text-align: center;
+	color: #949494;
+	display: block;
+	font-size: 13px;
+	margin-right: 10px;
+}
+#main .libinblock #libiptbtn{
+	background-image: url(../img/libdiary_btn.png);
+	height: 40px;
+	width: 100px;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	color: #6992a3;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	margin-top: 10px;
+	font-size: 13px;
+	float: left;
+	margin-left: 10px;
+	line-height: 40px;
+}
+#main .libinblock .notice  {
+	color: #e36d87;
+	height: 20px;
+}
+#foot {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 150px;
+	color: #aaa;
+	text-align: center;
+}
+#foot a {
+	color: #999;
+}

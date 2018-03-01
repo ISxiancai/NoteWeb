@@ -1,0 +1,562 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #fbfbfc;
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #5c5c5c;
+}
+.mass {
+	clear: both;
+	float: none;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.tcenter {
+	text-align: center;
+}
+.pdtop15 {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 420px;;
+}
+.pdtop29 {
+	padding-top: 29px;
+}
+.pdtb29 {
+	padding-top: 29px;
+	padding-bottom: 29px;
+}
+.top15 {
+	margin-top: 15px;
+}
+.btm15 {
+	margin-bottom: 15px;
+}
+.h80 {
+	height: 80px;
+}
+a:link, a:visited {
+	color: #5c5c5c;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #000000;
+}
+
+#libtop {
+	height: 20px;
+	margin-top: 29px;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 13px;
+	color: #2c2d31;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 20px;
+}
+#libtop a:link, #libtop a:visited {
+	color: #2c2d31;
+	text-decoration: none;
+}
+#libtop a:hover, #libtop a:active {
+	color: #33a7e0;
+}
+#libmain {
+	margin-bottom: 10px;
+}
+#libmain input {
+	box-sizing: content-box;
+}
+#libtopbar  {
+	background-image: url(../img/libdiary_topbar_bg.new.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 40px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #e6f4fa;
+}
+#libtopbar .addon-menu  {
+	float: right;
+}
+#libtopbar a:link, #libtopbar a:visited {
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #3378a1;
+}
+#libtopbar a:hover, #libtopbar a:active {
+	color: #ffffff;
+}
+#libmain #container {
+	background-color: #f3f2f7;
+	margin-right: 9px;
+	margin-left: 9px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #c9c9c9;
+	border-left-color: #c9c9c9;
+	margin-bottom: 0px;
+}
+#libmain #containerbottom {
+	background-image: url(../img/libdiary_paper_bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30px;
+	width: 960px;
+}
+/** Container Style **/
+#libmain #container .box1  {
+	line-height: 200%;
+	padding: 50px;
+}
+#libmain #container .box2  {
+	line-height: 200%;
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+}
+#libmain #container .box3  {
+	line-height: 200%;
+	padding-top: 50px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+	padding-left: 150px;
+}
+#libmain #container .box4  {
+	line-height: 200%;
+	padding-top: 50px;
+	padding-right: 200px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+}
+#libmain #container .box5  {
+	line-height: 200%;
+	padding-top: 50px;
+	padding-right: 250px;
+	padding-bottom: 50px;
+	padding-left: 250px;
+}
+
+#libmain #container .tdashed {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #c9c9c9;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+#libmain #container .bdashed {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #c9c9c9;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+/** Boymain **/
+#libmain #container #bodymain .headintro {
+	font-size: 14px;
+	line-height: 29px;
+}
+
+#libmain #container #bodymain .timelist {
+	clear: both;
+	padding-left: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#libmain #container #bodymain .diarydetail {
+	float: left;
+	width: 80px;
+	margin-left: -90px;
+	text-align: right;
+	line-height: 150%;
+	padding-right: 10px;
+}
+#bodymain{
+	width:670px;
+}
+#libmain #container #bodymain .diarybody {
+	line-height: 200%;
+	font-size: 14px;
+	color: #000000;
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow:hidden;
+}
+.diarybody{
+	text-indent: 2em;
+}
+#libmain #container #bodymain .timelist .diaryfrom a {
+	font-size: 13px;
+	line-height: 35px;
+	width: 100%;
+	text-align: right;
+	display: block;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #c9c9c9;
+}
+#libmain #container #bodymain .timelist .diaryfrom a:hover {
+	color: #33a7e0;
+}
+#libmain #bodymain #nomore {
+	font-size: 12px;
+	color: #888;
+}
+#nomore{
+	background: transparent;border: 0px;cursor: pointer;
+}
+#libmain #container #bodymain {
+	margin:auto;
+	padding: 10px;
+}
+#libmain #container #bodyaddon {
+	float: right;
+	border-left-width: 1px;
+	border-left-style: dashed;
+	border-left-color: #c9c9c9;
+	padding: 10px;
+	line-height: 150%;
+}
+#libmain #container #bodyaddon .largetext a:link, #libmain #container #bodyaddon .largetext a:visited {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+}
+#libmain #container #bodyaddon .largetext a:hover, #libmain #container #bodyaddon .largetext a:active {
+	color: #33a7e0;
+}
+/** Welcome **/
+#welcomelib {
+	padding-top: 629px;
+	background-image: url(../img/welcome.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+/** Input **/
+#libmain .libinblock {
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#libmain .libinblock .label , #libmain .libinblock .notice{
+	line-height: 20px;
+	color: #949494;
+	font-size: 13px;
+}
+#libmain .libinblock .input  {
+	background-image: url(../img/libdairy_input.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#libmain .libinblock .input .inputbox {
+	border: 1px solid #c9c9c9;
+	padding: 9px;
+	height: 20px;
+	width: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #33a7e0;
+	background-color: transparent;
+}
+#libmain #libiptbtn{
+	background-image: url(../img/libdiary_btn.png);
+	height: 40px;
+	width: 100px;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	color: #6992a3;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-size: 13px;
+}
+#libmain .libinblock .notice  {
+	color: #e36d87;
+	height: 20px;
+}
+/** Persist **/
+#libmain #foruser_persist  {
+	padding-top: 0px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	padding-left: 49px;
+}
+#libmain #foruser_persist .persistone {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	clear: both;
+	width: 100%;
+}
+
+#libmain #foruser_persist .persistone .days {
+	font-family: "Comic Sans MS", Verdana, Geneva, sans-serif;
+	color: #333333;
+	font-size: 29px;
+	font-weight: normal;
+	line-height: 40px;
+	display: block;
+	height: 40px;
+	width: 60px;
+	text-align: right;
+	float: left;
+}
+#libmain #foruser_persist .persistone .namelist {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left-color: #6ec1e2;
+	border-left-width: 5px;
+	border-left-style: solid;
+	width: 759px;
+	float: right;
+}
+#libmain #foruser_persist .persistone .namelist:hover {
+	background-color: #c9e9f7;
+}
+#libmain #foruser_persist .persistone .namelist .name a:link, #libmain #foruser_persist .persistone .namelist .name a:visited {
+	display: block;
+	float: left;
+	height: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 40px;
+	font-size: 16px;
+	min-width: 30px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #33a7e0;
+	overflow: hidden;
+	text-decoration: none;
+}
+#libmain #foruser_persist .persistone .namelist .name a:hover, #main #foruser_persist .persistone .namelist .name a:active {
+	background-color: #33a7e0;
+	color: #fff;
+}
+/** Who **/
+#libmain #foruser_who a{
+	display: block;
+	text-decoration: none;
+	padding: 29px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	float: left;
+	width: 130px;
+	text-align: center;
+	height: 20px;
+	overflow: hidden;
+}
+
+#libmain #foruser_who a:link, #libmain #foruser_who a:visited {
+	color: #ccc;
+}
+#libmain #foruser_who a:hover, #libmain #foruser_who a:active {
+	background-color: #73c7f1;
+	color: #FFF;
+}
+
+#libmain #foruser_who .who1 a:link, #libmain #foruser_who .who1 a:visited {
+    color: #33a7e0;
+}
+#libmain #foruser_who .who1 a:hover, #libmain #foruser_who .who1 a:active {
+    color: #FFF;
+}
+#libmain #foruser_who .who2 a:link, #libmain #foruser_who .who2 a:visited {
+    color: #73c7f1;
+}
+#libmain #foruser_who .who2 a:hover, #libmain #foruser_who .who2 a:active {
+    color: #FFF;
+}
+#libmain #foruser_who .who3 a:link, #libmain #foruser_who .who3 a:visited {
+    color: #888888;
+}
+#libmain #foruser_who .who3 a:hover, #libmain #foruser_who .who3 a:active {
+    color: #FFF;
+}
+#libmain #foruser_who .who4 a:link, #libmain #foruser_who .who4 a:visited {
+    color: #aaaaaa;
+}
+#libmain #foruser_who .who4 a:hover, #libmain #foruser_who .who4 a:active {
+    color: #FFF;
+}
+#libmain #foruser_who .who5 a:link, #libmain #foruser_who .who5 a:visited {
+    color: #cccccc;
+}
+#libmain #foruser_who .who5 a:hover, #libmain #foruser_who .who5 a:active {
+    color: #FFF;
+}
+/** Setting **/
+#libmain #setting label {
+	font-size: 14px;
+	line-height: 35px;
+}
+#libmain #setting .inputbox {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px;
+	border: solid 1px #c9c9c9;
+}
+#libmain #setting p {
+	padding-bottom: 15px;
+}
+#libmain #container #bodyaddon .largetext #setselect {
+	color: #33a7e0;
+}
+/** Calendar **/
+#libcalendar {
+	text-align: center;
+	width: 200px;
+}
+#libcalendar .monthtitle {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	font-weight: normal;
+}
+#libcalendar .dayofweek {
+	font-size: 12px;
+	color: #555;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+#libcalendar .libcld_trade .libcld_day {
+	font-family: Verdana, Geneva, sans-serif;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+#libcalendar .libcld_trade .writed {
+	padding: 0px;
+}
+#libcalendar .libcld_trade .change {
+	padding: 0px;
+}
+#libcalendar .libcld_trade .libcld_day a {
+	text-decoration: none;
+	color: #0794d4;
+	display: block;
+	padding: 5px;
+	font-size: 13px;
+	text-align: center;
+}
+#libcalendar .libcld_trade .libcld_day.writed a {
+	color: #0794d4;
+}
+#libcalendar .libcld_trade .libcld_day.nowrited a {
+	color: #999;
+}
+#libmain #container #bodymain #diarybody {
+	text-indent:2em;
+	width: 500px;
+	border: 1px dashed #c9c9c9;
+	height: 350px;
+	font-family: YouYuan;
+	line-height: 29px;
+	font-size: 30px;
+	padding: 10px;
+	color: #000;
+	overflow: auto;
+}
+#libmain #container #bodyaddon .addoninput {
+	box-sizing: content-box;
+	font-size: 13px;
+	padding: 5px;
+	height: 16px;
+	border: 1px solid #c9c9c9;
+	width: 250px;
+}
+
+
+
+#libfoot {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #c9c9c9;
+	margin-right: 9px;
+	margin-left: 9px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	padding-top: 15px;
+	margin-top: 29px;
+}
+#libfoot a:link , #libfoot a:visited {
+	color: #5c5c5c;
+	text-decoration: none;
+}
+#libfoot a:hover, #libfoot a:active {
+	color: #000000;
+}
+
+#diarydetail_it{
+	 margin-left: -150px;
+    height: 28px;
+    line-height: 200%;
+    font-size: 14px;
+    width: 140px;
+}
+#spannum{
+	text-align: center;
+    font-family: Georgia;
+    /* line-height: 29px; */
+    font-size: 14px;
+    /* padding: 10px; */
+    color: #808080;
+    overflow: auto;
+    margin-left: 371px;
+    /* float: left; */
+    height: 50px;
+    width: 150px;
+    margin-top: -50px;
+    position: absolute;
+    padding-top: 25px;
+}
+#moreshow{
+	font-size: 25px;
+	margin-left: 384px;
+	font-family: Georgia;
+}
+#moreshow:HOVER {
+	
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>loginservlet</servlet-name>
+        <servlet-class>servlet.loginservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginservlet</servlet-name>
+        <url-pattern>/loginservlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>findservlet</servlet-name>
+        <servlet-class>servlet.findservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>findservlet</servlet-name>
+        <url-pattern>/findservlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>addservlet</servlet-name>
+        <servlet-class>servlet.addservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addservlet</servlet-name>
+        <url-pattern>/addservlet</url-pattern>
+    </servlet-mapping><servlet>
+    <servlet-name>createservlet</servlet-name>
+    <servlet-class>servlet.createservlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>createservlet</servlet-name>
+        <url-pattern>/createservlet</url-pattern>
+    </servlet-mapping><servlet>
+    <servlet-name>deleteservlet</servlet-name>
+    <servlet-class>servlet.deleteservlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>deleteservlet</servlet-name>
+        <url-pattern>/deleteservlet</url-pattern>
+    </servlet-mapping><servlet>
+    <servlet-name>moreshowservlet</servlet-name>
+    <servlet-class>servlet.moreshowservlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>moreshowservlet</servlet-name>
+        <url-pattern>/moreshowservlet</url-pattern>
+    </servlet-mapping><servlet>
+    <servlet-name>pwdchangeservlet</servlet-name>
+    <servlet-class>servlet.pwdchangeservlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>pwdchangeservlet</servlet-name>
+        <url-pattern>/pwdchangeservlet</url-pattern>
+    </servlet-mapping><servlet>
+    <servlet-name>quitservlet</servlet-name>
+    <servlet-class>servlet.quitservlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>quitservlet</servlet-name>
+        <url-pattern>/quitservlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
